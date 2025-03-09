@@ -59,7 +59,8 @@ const eqList = computed(() => tm("eq.list"));
         @apply text-[3.73vw] text-[#888888];
       }
       & .duration {
-        @apply text-[3.2vw] text-[#888888];
+        @apply text-[3.2vw] text-[#888888] text-right shrink-0;
+        width: 28.5vw;
       }
     }
   }

@@ -8,11 +8,11 @@
     "list": [
       {
         "title": "Frontend Technologies",
-        "content": "HTML5、CSS3、Tailwind css、Element UI、PrimeVue\nVue2 / Vue3 / Nuxt3、Typescript、Javascript、jQuery\nRWD、i18n、Accessibility"
+        "content": "HTML5、CSS3、RWD、i18n、Accessibility\nTailwind css、Element UI、PrimeVue\nVue2 / Vue3 / Nuxt3、Typescript、Javascript、jQuery"
       },
       {
         "title": "Other Related Skills",
-        "content": "Google Map、Mapbox、Nginx、Github、Git Action\nLine Liff、Google / Fb / Line Login、Line / Telegram Bot\nNode.js、Express"
+        "content": "Google Map、Mapbox、Nginx、Git Action\nGoogle / Fb / Line Login、Line / Telegram Bot\nLine Liff、Node.js、Express"
       },
       {
         "title": "Language Proficiency",
