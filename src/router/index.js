@@ -13,7 +13,7 @@ const routes = [
 ]
 
 export default createRouter({
-    history: createWebHistory('/'),
+    history: createWebHistory('/Resume'),
     routes,
     scrollBehavior(to, from, savedPosition) {
         // always scroll to top
