@@ -44,7 +44,7 @@ const { t } = useI18n()
       @apply text-[2.8vw] font-bold mb-1;
     }
     & .about {
-      @apply text-[1.2vw] whitespace-pre-wrap;
+      @apply text-[1.2vw] text-justify whitespace-pre-wrap;
       padding: 1vw 10vw 0 0;
     }
   }
