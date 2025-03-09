@@ -33,13 +33,13 @@ const eqList = ref(tm("eq.list"))
 .educational-qualifications-container {
   padding: 2vw 5vw;
   & .eq-list-item {
-    @apply flex justify-between ;
+    @apply flex justify-between;
     padding: 0.7vw 1vw;
     & .title {
       @apply text-[1.3vw] font-bold;
     }
     & .subtitle {
-      @apply text-[1.2vw] font-semibold text-[#888888];
+      @apply text-[1.2vw] text-[#888888];
     }
     & .duration {
       @apply text-[1vw] text-[#888888];
