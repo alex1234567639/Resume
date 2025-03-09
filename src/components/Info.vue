@@ -66,7 +66,7 @@ const { t } = useI18n()
         height: 25vw;
       }
       & .name {
-        @apply text-[7vw];
+        @apply text-[7vw] mt-1;
       }
       & .about {
         @apply text-[3.2vw];
