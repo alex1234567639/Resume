@@ -16,7 +16,8 @@
         <div class="subtitle">{{ item.subtitle }}</div>
         <div class="description">{{ item.description }}</div>
         <div v-for="w in item.website" class="website-item" :key="w.name">
-          <a :href="w.link" target="_blank">- {{ w.name }}</a>
+          <a v-if="w.link" :href="w.link" target="_blank">- {{ w.name }}</a>
+          <span v-else class="text-black">- {{ w.name }}</span>
           <span class="text-[#888888]">{{ `（${w.skills}）` }}</span>
         </div>
       </div>
