@@ -76,26 +76,24 @@ const workExperienceList = computed(() => tm("work.list"));
       & .duration {
         @apply flex items-center text-[3.2vw] text-[#888888];
         & .dot {
-          width: 1.6vw;
-          height: 1.6vw;
-          margin:  0 1vw 0 0;
+          width: 1.8vw;
+          height: 1.8vw;
+          margin:  0 1.3vw;
         }
       }
       & .title {
         @apply text-[4.2vw] font-bold;
-        margin: 0 0 0 2.2vw;
       }
       & .subtitle {
         @apply text-[3.73vw] text-[#888888];
-        margin: 0 0 0 2.2vw;
       }
       & .description {
         @apply text-[3.2vw] text-[#888888];
-        margin: 3vw 2.2vw;
+        margin: 3vw 1.2vw;
       }
       & .website-item {
         @apply text-[3.73vw] text-[#246bb0];
-        margin: 1vw 2.2vw;
+        margin: 1vw 3vw;
       }
     }
   }
