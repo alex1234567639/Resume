@@ -30,6 +30,11 @@
         "duration": "2023-02 - 2025-03 (在職中)",
         "website": [
           {
+            "name": "高鐵T-masS x 鴻海(尚未上線)",
+            "link": "",
+            "skills": "Vue3 / Webview"
+          },
+          {
             "name": "2024鴻海科技日活動官網",
             "link": "https://hhtd.foxconn.com/zh-tw",
             "skills": "Nuxt3 / Gsap"
@@ -93,6 +98,32 @@
             "skills": "Vue2 / Google、FB Login"
           }
         ]
+      }
+    ]
+  },
+  "other": {
+    "title": "其他專案",
+    "description": "⼯作之餘，平時也喜歡摸索研究新技術並製作簡單的Demo或開發一個完整網頁！",
+    "list": [
+      {
+        "name": "CardTime 卡壇(卡牌遊戲論壇：卡片搜尋、組牌功能)",
+        "link": "https://cardtime.tw/",
+        "skills": "Vue3 / Node.js Express / MongoDB"
+      },
+      {
+        "name": "CardTime 卡壇(後台)",
+        "link": "https://cardtime.tw/admin",
+        "skills": "Vue2 / vue-element-ui"
+      },
+      {
+        "name": "Pocky歌劇院活動網頁(活動結束已下線)",
+        "link": "",
+        "skills": "Vue3 / Line Liff"
+      },
+      {
+        "name": "瑞普室內設計形象官網",
+        "link": "https://ripple.com.tw/",
+        "skills": "Vue3"
       }
     ]
   },
