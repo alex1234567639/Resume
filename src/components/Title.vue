@@ -13,7 +13,7 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .title-container {
-  @apply flex items-center text-[#0052A3] font-semibold;
+  @apply flex items-center text-[#023365] font-semibold;
   font-size: 1.4vw;
   & img {
     margin: 0 0.2vw 0 0;

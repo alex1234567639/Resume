@@ -37,7 +37,7 @@ const otherProjectList = ref(tm("other.list"))
     padding: 0.7vw 1vw;
   }
   & .project-list-item {
-    @apply text-[1vw] text-[#246bb0];
+    @apply text-[1.2vw] text-[#246bb0];
     margin: 0.5vw 1.2vw;
   }
 }

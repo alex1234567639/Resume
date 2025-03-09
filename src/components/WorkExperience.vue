@@ -62,7 +62,7 @@ const workExperienceList = ref(tm("work.list"))
       margin: 1vw 1.2vw;
     }
     & .website-item {
-      @apply text-[1vw] text-[#246bb0];
+      @apply text-[1.2vw] text-[#246bb0];
       margin: 0.5vw 1.2vw;
     }
   }
