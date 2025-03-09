@@ -36,4 +36,17 @@ const eChangeLang = (lang) => {
     @apply text-[#fcfcfc];
   }
 }
+
+@media (max-width: 900px) {
+  .lang-wrapper {
+    margin: 3vw 0 8px;
+    & .lang-btn {
+      @apply text-[3.2vw];
+      color: rgba(255, 255, 255, 0.3);
+    }
+    & .lang-btn-active {
+      @apply text-[#fcfcfc];
+    }
+  }
+}
 </style>

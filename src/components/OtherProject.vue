@@ -41,4 +41,18 @@ const otherProjectList = ref(tm("other.list"))
     margin: 0.5vw 1.2vw;
   }
 }
+
+@media (max-width: 900px) {
+  .other-project-container {
+    padding: 4vw 5vw;
+    & .subtitle {
+      @apply text-[3.2vw];
+      padding: 2vw 1vw;
+    }
+    & .project-list-item {
+      @apply text-[3.2vw] text-[#246bb0];
+      margin: 2vw 3.2vw;
+    }
+  }
+}
 </style>

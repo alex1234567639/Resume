@@ -46,4 +46,22 @@ const eqList = ref(tm("eq.list"))
     }
   }
 }
+
+@media (max-width: 900px) {
+  .educational-qualifications-container {
+    padding: 4vw 5vw;
+    & .eq-list-item {
+      padding: 2vw 1vw;
+      & .title {
+        @apply text-[3.73vw] font-bold;
+      }
+      & .subtitle {
+        @apply text-[3.2vw] text-[#888888];
+      }
+      & .duration {
+        @apply text-[2.8vw] text-[#888888];
+      }
+    }
+  }
+}
 </style>

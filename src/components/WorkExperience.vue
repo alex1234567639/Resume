@@ -58,12 +58,45 @@ const workExperienceList = ref(tm("work.list"))
       margin: 0 0 0 1.2vw;
     }
     & .description {
-      @apply text-[1vw] text-[#888888];
+      @apply text-[1vw] text-[#888888] text-justify;
       margin: 1vw 1.2vw;
     }
     & .website-item {
       @apply text-[1.2vw] text-[#246bb0];
       margin: 0.5vw 1.2vw;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .work-experience-container {
+    padding: 4vw 5vw;
+    & .work-list-item {
+      padding: 2vw 1vw;
+      & .duration {
+        @apply flex items-center text-[2.8vw] text-[#888888];
+        & .dot {
+          width: 1.6vw;
+          height: 1.6vw;
+          margin:  0 1vw 0 0;
+        }
+      }
+      & .title {
+        @apply text-[3.73vw] font-bold;
+        margin: 0 0 0 2.2vw;
+      }
+      & .subtitle {
+        @apply text-[3.2vw] text-[#888888];
+        margin: 0 0 0 2.2vw;
+      }
+      & .description {
+        @apply text-[2.8vw] text-[#888888];
+        margin: 2vw 2.2vw;
+      }
+      & .website-item {
+        @apply text-[3.2vw] text-[#246bb0];
+        margin: 1vw 2.2vw;
+      }
     }
   }
 }

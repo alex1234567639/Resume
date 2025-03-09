@@ -1,7 +1,7 @@
 <template>
   <div class="info-container">
-    <div class="flex">
-      <div class="head-shot shrink-0">
+    <div class="info-left">
+      <div class="head-shot">
         <img src="/src/assets/img/headshot.jpg" alt="">
       </div>
       <div>
@@ -10,7 +10,7 @@
         <div class="about">{{ t('about') }}</div>
       </div>
     </div>
-    <div class="flex flex-col items-end">
+    <div class="info-right">
       <Language/>
       <div class="text-[#fcfcfc] mb-2">{{ `1997/03/06 ${t('taipei')}` }}</div>
       <a class="text-[#fcfcfc] mb-2" href="tel:+886955030940">(+886)955030940</a>
@@ -32,18 +32,50 @@ const { t } = useI18n()
   @apply flex justify-between text-[1.3vw];
   padding: 4vw 5vw 2vw;
   background-color: #a5cbf2;
-  & .head-shot {
-    @apply rounded-full overflow-hidden object-fill mr-[2vw];
-    width: 12vw;
-    height: 12vw;
-    border: 0.3vw solid #246bb0;
+  & .info-left {
+    @apply flex;
+    & .head-shot {
+      @apply shrink-0 rounded-full overflow-hidden object-fill mr-[2vw];
+      width: 12vw;
+      height: 12vw;
+      border: 0.3vw solid #246bb0;
+    }
+    & .name {
+      @apply text-[2.8vw] font-bold mb-1;
+    }
+    & .about {
+      @apply text-[1.2vw] whitespace-pre-wrap;
+      padding: 1vw 10vw 0 0;
+    }
   }
-  & .name {
-    @apply text-[2.8vw] font-bold mb-1;
+  & .info-right {
+    @apply flex flex-col items-end;
   }
-  & .about {
-    @apply text-[1.2vw] whitespace-pre-wrap;
-    padding: 1vw 10vw 0 0;
+}
+
+@media (max-width: 900px) {
+  .info-container {
+    @apply flex flex-col justify-between text-[3.73vw];
+    padding: 4vw 5vw;
+    background-color: #a5cbf2;
+    & .info-left {
+      @apply flex flex-col items-center;
+      & .head-shot {
+        @apply mr-0;
+        width: 25vw;
+        height: 25vw;
+      }
+      & .name {
+        @apply text-[7vw];
+      }
+      & .about {
+        @apply text-[3.2vw];
+        padding: 3vw 0 0;
+      }
+    }
+    & .info-right {
+      @apply flex flex-col items-end;
+    }
   }
 }
 </style>

@@ -39,4 +39,19 @@ const skillList = ref(tm("skill.list"))
     }
   }
 }
+
+@media (max-width: 900px) {
+  .skill-container {
+    padding: 4vw 5vw;
+    & .skill-list-item {
+      padding: 2vw 1vw;
+      & .title {
+        @apply text-[3.73vw] font-bold;
+      }
+      & .content {
+        @apply text-[3.2vw] text-[#888888] whitespace-pre-wrap;
+      }
+    }
+  }
+}
 </style>

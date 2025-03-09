@@ -20,4 +20,14 @@ const props = defineProps({
     width: 3vw;
   }
 }
+
+@media (max-width: 900px) {
+  .title-container {
+    font-size: 4.26vw;
+    & img {
+      margin: 0 1vw 0 0;
+      width: 6vw;
+    }
+  }
+}
 </style>

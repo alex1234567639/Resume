@@ -17,4 +17,11 @@ const props = defineProps({
   height: 0.2vw;
   margin: 0.5vw 0;
 }
+
+@media (max-width: 900px) {
+  .divider-container {
+    height: 0.5vw;
+    margin: 1vw 0;
+  }
+}
 </style>
