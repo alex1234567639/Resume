@@ -46,11 +46,11 @@ const otherProjectList = computed(() => tm("other.list"));
   .other-project-container {
     padding: 4vw 5vw;
     & .subtitle {
-      @apply text-[3.2vw];
+      @apply text-[3.73vw];
       padding: 2vw 1vw;
     }
     & .project-list-item {
-      @apply text-[3.2vw] text-[#246bb0];
+      @apply text-[3.73vw] text-[#246bb0];
       margin: 2vw 3.2vw;
     }
   }

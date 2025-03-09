@@ -46,10 +46,10 @@ const skillList = computed(() => tm("skill.list"));
     & .skill-list-item {
       padding: 2vw 1vw;
       & .title {
-        @apply text-[3.73vw] font-bold;
+        @apply text-[4.2vw] font-bold;
       }
       & .content {
-        @apply text-[3.2vw] text-[#888888] whitespace-pre-wrap;
+        @apply text-[3.73vw] text-[#888888] whitespace-pre-wrap;
       }
     }
   }

@@ -53,13 +53,13 @@ const eqList = computed(() => tm("eq.list"));
     & .eq-list-item {
       padding: 2vw 1vw;
       & .title {
-        @apply text-[3.73vw] font-bold;
+        @apply text-[4.2vw] font-bold;
       }
       & .subtitle {
-        @apply text-[3.2vw] text-[#888888];
+        @apply text-[3.73vw] text-[#888888];
       }
       & .duration {
-        @apply text-[2.8vw] text-[#888888];
+        @apply text-[3.2vw] text-[#888888];
       }
     }
   }

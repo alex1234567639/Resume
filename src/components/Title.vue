@@ -23,7 +23,7 @@ const props = defineProps({
 
 @media (max-width: 900px) {
   .title-container {
-    font-size: 4.26vw;
+    font-size: 4.8vw;
     & img {
       margin: 0 1vw 0 0;
       width: 6vw;

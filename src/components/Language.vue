@@ -41,7 +41,7 @@ const eChangeLang = (lang) => {
   .lang-wrapper {
     margin: 3vw 0 8px;
     & .lang-btn {
-      @apply text-[3.2vw];
+      @apply text-[3.73vw];
       color: rgba(255, 255, 255, 0.3);
     }
     & .lang-btn-active {

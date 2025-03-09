@@ -55,7 +55,7 @@ const { t } = useI18n()
 
 @media (max-width: 900px) {
   .info-container {
-    @apply flex flex-col justify-between text-[3.73vw];
+    @apply flex flex-col justify-between text-[4.2vw];
     padding: 4vw 5vw;
     background-color: #a5cbf2;
     & .info-left {
@@ -69,7 +69,7 @@ const { t } = useI18n()
         @apply text-[7vw] mt-1;
       }
       & .about {
-        @apply text-[3.2vw];
+        @apply text-[3.73vw];
         padding: 3vw 0 0;
       }
     }
