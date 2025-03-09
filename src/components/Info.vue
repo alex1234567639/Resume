@@ -6,13 +6,14 @@
       </div>
       <div>
         <div class="name">王子恒 Alex</div>
-        <div class="text-[#888888] ml-1">{{ `${t('frontend_engineer')} 3-4${t('experience')}` }}</div>
+        <div class="text-[#fcfcfc]">{{ `${t('frontend_engineer')} 3-4${t('experience')}` }}</div>
         <div class="about">{{ t('about') }}</div>
       </div>
     </div>
     <div class="flex flex-col items-end">
-      <div class="text-[#888888] mb-2">{{ `1997/03/06 ${t('taipei')}` }}</div>
-      <a class="text-[#888888] mb-2" href="tel:+886955030940">(+886)955030940</a>
+      <Language/>
+      <div class="text-[#fcfcfc] mb-2">{{ `1997/03/06 ${t('taipei')}` }}</div>
+      <a class="text-[#fcfcfc] mb-2" href="tel:+886955030940">(+886)955030940</a>
       <a class="text-[#0052a3]" href="mailto:alex8603062000@gmail.com">alex8603062000@gmail.com</a>
     </div>
   </div>
@@ -20,6 +21,7 @@
 </template>
 
 <script setup>
+import Language from "./Language.vue";
 import Divider from "./Divider.vue";
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
@@ -27,8 +29,9 @@ const { t } = useI18n()
 
 <style lang="scss" scoped>
 .info-container {
-  @apply flex justify-between text-[1.2vw];
+  @apply flex justify-between text-[1.3vw];
   padding: 4vw 5vw 2vw;
+  background-color: #a5cbf2;
   & .head-shot {
     @apply rounded-full overflow-hidden object-fill mr-[2vw];
     width: 12vw;
@@ -39,7 +42,7 @@ const { t } = useI18n()
     @apply text-[2.8vw] font-bold mb-1;
   }
   & .about {
-    @apply whitespace-pre-wrap;
+    @apply text-[1.2vw] whitespace-pre-wrap;
     padding: 1vw 10vw 0 0;
   }
 }

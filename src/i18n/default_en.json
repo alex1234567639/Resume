@@ -1,3 +1,150 @@
 {
-
+  "frontend_engineer": "Frontend Engineer",
+  "experience": " years of experience",
+  "taipei": "Taipei",
+  "about": "Hello, I am Alex!\nI got into programming because of my passion for logical thinking. The process of web development is always challenging and incredibly interesting, and I often find myself deeply immersed in solving problems. I aim to continuously improve my skills and work towards becoming a full-stack engineer in the future!",
+  "skill": {
+    "title": "Skills",
+    "list": [
+      {
+        "title": "Frontend Technologies",
+        "content": "HTML5、CSS3、Tailwind css、Element UI、PrimeVue\nVue2 / Vue3 / Nuxt3、Typescript、Javascript、jQuery\nRWD、i18n、無障礙"
+      },
+      {
+        "title": "Other Related Skills",
+        "content": "Google Map、Mapbox、Nginx、Github、Git Action\nLine Liff、Google / Fb / Line 登⼊、Line / Telegram 機器⼈\nNode.js、Express"
+      },
+      {
+        "title": "Language Proficiency",
+        "content": "TOEIC 820分"
+      }
+    ]
+  },
+  "work": {
+    "title": "Work Experience",
+    "list": [
+      {
+        "title": "Omniguider Inc. (Foxconn Group) - Frontend Engineer",
+        "subtitle": "Responsibilities: Government project web development, 2D/3D map applications",
+        "description": "Primarily responsible for frontend development, API integration, using Vue3 and Nuxt3 frameworks. Implementing web animations and map-related applications such as route planning and simulated navigation as per design requirements.",
+        "duration": "2023-02 - 2025-03 (Currently Employed)",
+        "website": [
+          {
+            "name": "THSR T-masS x Foxconn (Not yet launched)",
+            "link": "",
+            "skills": "Vue3 / Webview"
+          },
+          {
+            "name": "2024 HHTD Official Website",
+            "link": "https://hhtd.foxconn.com/zh-tw",
+            "skills": "Nuxt3 / Gsap"
+          },
+          {
+            "name": "2025 Foxconn Carnival - Map Navigation System",
+            "link": "https://omnig-anyplace-foxconn.omniguider.com/arena/",
+            "skills": "Vue3 / Mapbox"
+          },
+          {
+            "name": "Taipei Zoo - Map Navigation System",
+            "link": "https://zooguide.gov.taipei/home/map",
+            "skills": "Vue3 / Google Map / Web AR / Google Login / Accessibility A"
+          },
+          {
+            "name": "Omniguider Official Website",
+            "link": "https://www.omniguider.com/",
+            "skills": "Vue3 / Gsap"
+          },
+          {
+            "name": "Puli Winery AI Smart Guide System (Mobile/Kiosk Version)",
+            "link": "https://puli-brewery-test.omniguider.com/home/",
+            "skills": "Vue3"
+          },
+          {
+            "name": "TCNR Park Guide System",
+            "link": "https://tcnrmap.wda.gov.tw/anymap/enter",
+            "skills": "Vue3 / Google Map"
+          },
+          {
+            "name": "NMNS - Stamp Collection System",
+            "link": "https://stamps.nmns.edu.tw/point-card/",
+            "skills": "Vue3 / Accessibility AA"
+          },
+          {
+            "name": "NMNS - Virtual Museum",
+            "link": "https://pano.nmns.edu.tw/",
+            "skills": "Vue3 / Accessibility AA"
+          },
+          {
+            "name": "Muse Big Player",
+            "link": "https://muse.moe.gov.tw/",
+            "skills": "WebView / Google Login / Accessibility AA"
+          }
+        ]
+      },
+      {
+        "title": "Future Game Co., Ltd. - Frontend Engineer",
+        "subtitle": "Responsibilities: Game official websites, event pages, and backend system development",
+        "description": "Primarily responsible for frontend development, API integration, proficient in using Vue2 and Vue3 frameworks for web development. Built multiple game official websites and event pages from scratch along with backend systems.",
+        "duration": "2020-08 - 2022-11",
+        "website": [
+          {
+            "name": "NeverLand Official Website",
+            "link": "https://nl.futuregame.com.tw/",
+            "skills": "Vue2"
+          },
+          {
+            "name": "NeverLand Event Page - Celebration",
+            "link": "https://nl.futuregame.com.tw/celebration/",
+            "skills": "Vue2 / Google、FB Login"
+          }
+        ]
+      }
+    ]
+  },
+  "other": {
+    "title": "Other Projects",
+    "description": "In my free time, I enjoy exploring new technologies and developing simple demos or complete web applications!",
+    "list": [
+      {
+        "name": "CardTime (A forum for card games: card search, deck building)",
+        "link": "https://cardtime.tw/",
+        "skills": "Vue3 / Node.js Express / MongoDB"
+      },
+      {
+        "name": "CardTime (Admin Panel)",
+        "link": "https://cardtime.tw/admin",
+        "skills": "Vue2 / vue-element-ui"
+      },
+      {
+        "name": "Pocky Opera House Event Page (Event Ended, Page Offline)",
+        "link": "",
+        "skills": "Vue3 / Line Liff"
+      },
+      {
+        "name": "Ripple Interior Design Official Website",
+        "link": "https://ripple.com.tw/",
+        "skills": "Vue3"
+      }
+    ]
+  },
+  "eq": {
+    "title": "Education",
+    "list": [
+      {
+        "title": "Institute for Information Industry",
+        "subtitle": "Frontend Engineer Training Program ED101",
+        "duration": "2020-02 - 2020-08"
+      },
+      {
+        "title": "National Central University",
+        "subtitle": "Department of Mathematics",
+        "duration": "2015-09 - 2019-06"
+      },
+      {
+        "title": "Chien Kuo High School",
+        "subtitle": "",
+        "duration": "2012-09 - 2015-06"
+      }
+    ]
+  }
 }
