@@ -13,7 +13,8 @@
 
 @layer base {
     body {
-        font-family: "GenJyuuGothicL", "Microsoft JhengHei", "Arial", "MyWebFont", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "spHelvetica Neue", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+        @apply font-normal m-0;
+        font-family: "NotoSansTC", "Microsoft JhengHei", "Arial", "MyWebFont", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "spHelvetica Neue", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     }
     *:focus {
         outline: none;
@@ -38,6 +39,10 @@
     }
     .mobile {
         display: none !important;
+    }
+    .divider {
+        @apply w-full bg-[#b4d1eb];
+        height: 0.2vw;
     }
 
     @media (max-width: 768px) {
