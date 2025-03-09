@@ -15,5 +15,6 @@ const props = defineProps({
 .divider-container {
   @apply w-full;
   height: 0.2vw;
+  margin: 0.5vw 0;
 }
 </style>
