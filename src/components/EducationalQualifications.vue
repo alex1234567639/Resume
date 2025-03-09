@@ -51,6 +51,7 @@ const eqList = computed(() => tm("eq.list"));
   .educational-qualifications-container {
     padding: 4vw 5vw;
     & .eq-list-item {
+      @apply flex flex-col justify-between;
       padding: 2vw 1vw;
       & .title {
         @apply text-[4.2vw] font-bold;
@@ -59,8 +60,7 @@ const eqList = computed(() => tm("eq.list"));
         @apply text-[3.73vw] text-[#888888];
       }
       & .duration {
-        @apply text-[3.2vw] text-[#888888] text-right shrink-0;
-        width: 28.5vw;
+        @apply text-[3.2vw] text-[#888888];
       }
     }
   }
