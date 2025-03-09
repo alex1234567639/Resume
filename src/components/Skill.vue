@@ -19,11 +19,11 @@
 <script setup>
 import Title from "./Title.vue";
 import Divider from "./Divider.vue";
-import { ref } from "vue";
+import { computed } from "vue";
 import { useI18n } from 'vue-i18n'
 const { t, tm } = useI18n()
 
-const skillList = ref(tm("skill.list"))
+const skillList = computed(() => tm("skill.list"));
 </script>
 
 <style lang="scss" scoped>

@@ -28,11 +28,11 @@
 <script setup>
 import Title from "./Title.vue";
 import Divider from "./Divider.vue";
-import { ref } from "vue";
+import { computed } from "vue";
 import { useI18n } from 'vue-i18n'
 const { t, tm } = useI18n()
 
-const workExperienceList = ref(tm("work.list"))
+const workExperienceList = computed(() => tm("work.list"));
 </script>
 
 <style lang="scss" scoped>

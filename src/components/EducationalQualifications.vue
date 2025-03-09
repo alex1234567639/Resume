@@ -22,11 +22,11 @@
 <script setup>
 import Title from "./Title.vue";
 import Divider from "./Divider.vue";
-import { ref } from "vue";
+import { computed } from "vue";
 import { useI18n } from 'vue-i18n'
 const { t, tm } = useI18n()
 
-const eqList = ref(tm("eq.list"))
+const eqList = computed(() => tm("eq.list"));
 </script>
 
 <style lang="scss" scoped>

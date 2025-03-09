@@ -8,15 +8,15 @@
     "list": [
       {
         "title": "Frontend Technologies",
-        "content": "HTML5、CSS3、Tailwind css、Element UI、PrimeVue\nVue2 / Vue3 / Nuxt3、Typescript、Javascript、jQuery\nRWD、i18n、無障礙"
+        "content": "HTML5、CSS3、Tailwind css、Element UI、PrimeVue\nVue2 / Vue3 / Nuxt3、Typescript、Javascript、jQuery\nRWD、i18n、Accessibility"
       },
       {
         "title": "Other Related Skills",
-        "content": "Google Map、Mapbox、Nginx、Github、Git Action\nLine Liff、Google / Fb / Line 登⼊、Line / Telegram 機器⼈\nNode.js、Express"
+        "content": "Google Map、Mapbox、Nginx、Github、Git Action\nLine Liff、Google / Fb / Line Login、Line / Telegram Bot\nNode.js、Express"
       },
       {
         "title": "Language Proficiency",
-        "content": "TOEIC 820分"
+        "content": "TOEIC 820"
       }
     ]
   },
