@@ -40,10 +40,6 @@
     .mobile {
         display: none !important;
     }
-    .divider {
-        @apply w-full bg-[#b4d1eb];
-        height: 0.2vw;
-    }
 
     @media (max-width: 768px) {
         .mobile {

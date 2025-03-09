@@ -16,10 +16,11 @@
       <a class="text-[#0052a3]" href="mailto:alex8603062000@gmail.com">alex8603062000@gmail.com</a>
     </div>
   </div>
-  <div class="divider"></div>
+  <Divider :color="'#b4d1eb'"/>
 </template>
 
 <script setup>
+import Divider from "./Divider.vue";
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 </script>
