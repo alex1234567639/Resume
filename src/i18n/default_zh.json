@@ -3,6 +3,23 @@
   "experience": "年經歷",
   "taipei": "Taipei",
   "about": "Hello，我是⼦恒！\n當初因為喜歡邏輯性的思考⽽接觸程式，網⾴開發的過程總是具有挑戰性且⼗分有趣，時常沈醉於解決問題的過程當中，期望⽇後能更精進⾃⼰，往全端⼯程師邁進！",
+  "skill": {
+    "title": "技能",
+    "list": [
+      {
+        "title": "前端技術",
+        "content": "HTML5、CSS3、Tailwind css、Element UI、PrimeVue\nVue2 / Vue3、Javascript、jQuery\nVite、Nuxt、RWD"
+      },
+      {
+        "title": "其他相關",
+        "content": "Google Map、Mapbox、Nginx、Github、Git Action\nLine Liff、Google / Fb / Line 登⼊、Line / Telegram 機器⼈\nNode.js、Express"
+      },
+      {
+        "title": "語言能力",
+        "content": "TOEIC 820分"
+      }
+    ]
+  },
   "eq": {
     "title": "學經歷",
     "list": [
