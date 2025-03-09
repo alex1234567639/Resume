@@ -6,7 +6,7 @@
       </div>
       <div>
         <div class="name">王子恒 Alex</div>
-        <div class="text-[#fcfcfc]">{{ `${t('frontend_engineer')} 3-4${t('experience')}` }}</div>
+        <div class="text-[#fcfcfc]">{{ `${t('frontend_engineer')} 4-5${t('experience')}` }}</div>
         <div class="about">{{ t('about') }}</div>
       </div>
     </div>
