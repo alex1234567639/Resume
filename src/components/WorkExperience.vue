@@ -10,7 +10,7 @@
           :key="index"
       >
         <div class="duration">
-          <div class="dot"></div>{{ item.duration }}
+          <div class="dot"></div>{{ `${item.duration_start} - ${item.duration_end === 'on_job' ? getCurrentYearMonth() + t('work.on_job') : item.duration_end}` }}
         </div>
         <div class="title">{{ item.title }}</div>
         <div class="subtitle">{{ item.subtitle }}</div>
@@ -29,6 +29,7 @@
 import Title from "./Title.vue";
 import Divider from "./Divider.vue";
 import { computed } from "vue";
+import { getCurrentYearMonth } from "/src/utils/date.js"
 import { useI18n } from 'vue-i18n'
 const { t, tm } = useI18n()
 

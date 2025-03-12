@@ -6,7 +6,7 @@
       </div>
       <div>
         <div class="name">王子恒 Alex</div>
-        <div class="text-[#fcfcfc]">{{ `${t('frontend_engineer')} 4-5${t('experience')}` }}</div>
+        <div class="text-[#fcfcfc]">{{ `${t('frontend_engineer')} ${getYearsSince20200801()}${t('experience')}` }}</div>
         <div class="about">{{ t('about') }}</div>
       </div>
     </div>
@@ -23,6 +23,7 @@
 <script setup>
 import Language from "./Language.vue";
 import Divider from "./Divider.vue";
+import { getYearsSince20200801 } from "/src/utils/date.js"
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 </script>
