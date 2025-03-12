@@ -36,7 +36,7 @@ const eqList = computed(() => tm("eq.list"));
     @apply flex justify-between;
     padding: 0.7vw 1vw;
     & .title {
-      @apply text-[1.3vw] font-bold;
+      @apply text-[1.3vw];
     }
     & .subtitle {
       @apply text-[1.2vw] text-[#888888];
