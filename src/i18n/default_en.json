@@ -22,12 +22,14 @@
   },
   "work": {
     "title": "Work Experience",
+    "on_job": "(Currently Employed)",
     "list": [
       {
         "title": "Omniguider Inc. (Foxconn Group) - Frontend Engineer",
         "subtitle": "Responsibilities: Government project web development, 2D/3D map applications",
         "description": "Primarily responsible for frontend development, API integration, using Vue3 and Nuxt3 frameworks. Implementing web animations and map-related applications such as route planning and simulated navigation as per design requirements.",
-        "duration": "2023-02 - 2025-03 (Currently Employed)",
+        "duration_start": "2023-02",
+        "duration_end": "on_job",
         "website": [
           {
             "name": "THSR T-masS x Foxconn (Not yet launched)",
@@ -85,7 +87,8 @@
         "title": "Future Game Co., Ltd. - Frontend Engineer",
         "subtitle": "Responsibilities: Game official websites, event pages, and backend system development",
         "description": "Primarily responsible for frontend development, API integration, proficient in using Vue2 and Vue3 frameworks for web development. Built multiple game official websites and event pages from scratch along with backend systems.",
-        "duration": "2020-08 - 2022-11",
+        "duration_start": "2020-08",
+        "duration_end": "2022-11",
         "website": [
           {
             "name": "NeverLand Official Website",
